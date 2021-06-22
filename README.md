@@ -1,7 +1,7 @@
 <p align="center">
-  <h1 align="center">Ana Ashrafi's Personal Website ✨</h1>
+  <h1 align="center">Rida Khan's Personal Website ✨</h1>
   <p align="center">
-    The personal website/portfolio of Ana Ashrafi, hosted with GitHub Pages. Built using React and Bootstrap. Site URL / Demo: 
+    The personal website/portfolio of Rida Khan, hosted with GitHub Pages. Built using React and Bootstrap. Site URL / Demo: 
     <a href="https://anaashrafi.com">anaashrafi.com</a>
     <br />
   </p>
