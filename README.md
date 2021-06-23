@@ -2,14 +2,14 @@
   <h1 align="center">Rida Khan's Personal Website ✨</h1>
   <p align="center">
     The personal website/portfolio of Rida Khan, hosted with GitHub Pages. Built using React and Bootstrap. Site URL / Demo: 
-    <a href="https://anaashrafi.com">anaashrafi.com</a>
+    <a href="https://ridakn.github.io/">https://ridakn.github.io/</a>
     <br />
   </p>
 </p>
 
 <!-- PROJECT LOGO -->
 
-[![Site preview](/public/social-image.png)](https://anaashrafi.github.io/)
+<img width="1245" alt="Screen Shot 2021-06-23 at 5 20 59 PM" src="https://user-images.githubusercontent.com/32781544/123103827-3848c300-d3eb-11eb-8e90-a6809af57a18.png">
 
 ## Technology Stack 
 
