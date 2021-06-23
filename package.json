@@ -1,7 +1,7 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "https://ridakn.github.io/home", 
+  "homepage": "https://ridakn.github.io/home",
   "version": "0.1.0",
   "private": true,
   "author": {
@@ -16,6 +16,7 @@
     "gh-pages": "^2.2.0",
     "jquery": "^3.5.1",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "react-photo-gallery": "^8.0.0",

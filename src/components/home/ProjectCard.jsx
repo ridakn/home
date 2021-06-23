@@ -48,7 +48,7 @@ const ProjectCard = ({ value }) => {
       <div className="card shadow-lg p-3 mb-5 bg-white rounded">
         {/* <img src="" className="card-img-top" alt="..." /> */}
         <div className="card-body">
-          <h5 className="card-title">{name} </h5>
+          <h5 className="card-title" style={{color:'purple'}}>{name} </h5>
           <p className="card-text">{description} </p>
           <a
             href={`${svn_url}/archive/master.zip`}
@@ -65,13 +65,7 @@ const ProjectCard = ({ value }) => {
           </a>
           <hr />
           <Language value={languages_url}></Language>
-          <p className="card-text">
-            <span className="text-dark card-link mr-4">
-              <i className="fab fa-github" /> Stars{" "}
-              <span className="badge badge-dark">{stargazers_count}</span>
-            </span>
-            <small className="text-muted">Updated {updated_at}</small>
-          </p>
+
         </div>
       </div>
     </div>

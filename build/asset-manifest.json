@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.1321dd01.chunk.css",
+    "main.js": "/home/static/js/main.9f2b834f.chunk.js",
+    "main.js.map": "/home/static/js/main.9f2b834f.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.e084aacb.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.e084aacb.js.map",
+    "static/css/2.de424728.chunk.css": "/home/static/css/2.de424728.chunk.css",
+    "static/js/2.e3a270fa.chunk.js": "/home/static/js/2.e3a270fa.chunk.js",
+    "static/js/2.e3a270fa.chunk.js.map": "/home/static/js/2.e3a270fa.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.663d8cf6c759d40b527666eaabf79970.js": "/home/precache-manifest.663d8cf6c759d40b527666eaabf79970.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/home/static/css/2.de424728.chunk.css.map",
+    "static/css/main.1321dd01.chunk.css.map": "/home/static/css/main.1321dd01.chunk.css.map",
+    "static/js/2.e3a270fa.chunk.js.LICENSE.txt": "/home/static/js/2.e3a270fa.chunk.js.LICENSE.txt",
+    "static/media/Profile.jpg": "/home/static/media/Profile.68be1b44.jpg",
+    "static/media/boeing.jpg": "/home/static/media/boeing.55f4ef0b.jpg",
+    "static/media/culture.jpg": "/home/static/media/culture.433b371a.jpg",
+    "static/media/dell-logo.jpg": "/home/static/media/dell-logo.5d4d169e.jpg",
+    "static/media/motion.png": "/home/static/media/motion.53c4c973.png",
+    "static/media/resume.pdf": "/home/static/media/resume.33f31b4c.pdf",
+    "static/media/sentiment.png": "/home/static/media/sentiment.167f94d9.png",
+    "static/media/service.jpg": "/home/static/media/service.d6698c92.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e084aacb.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.e3a270fa.chunk.js",
+    "static/css/main.1321dd01.chunk.css",
+    "static/js/main.9f2b834f.chunk.js"
+  ]
+}

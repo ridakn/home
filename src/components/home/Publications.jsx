@@ -1,57 +1,54 @@
 import React, { useState, useEffect, Profiler } from "react";
-import Dell from "../../editable-stuff/boeing.jpg";
-import Boeing from "../../editable-stuff/dell-logo.jpg"
+import Sent from "../../editable-stuff/sentiment.png";
+import Mot from "../../editable-stuff/motion.png"
+
 const divStyle = {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center'
   };
-const Experience = () => {
+const Publications = () => {
 return (
-    <div id="experience" className="jumbotron jumbotron-fluid m-0" style={{backgroundColor:'#ffffff'}}>
+    <div id="publications" className="jumbotron jumbotron-fluid m-0" style={{backgroundColor:'white'}}>
       <div className="container container-fluid">
         <div className="row">
             <div className="col d-lg-inline align-self-center">
-            <h1 className="display-4 mb-5 text-center" ><strong>Experience</strong></h1>
-            {/* <h1 className="display-4 pb-5">Experience</h1> */}
+            <h1 className="display-4 mb-5 text-center"><strong> Publications </strong></h1>
+            {/* <h1 className="display-4 pb-5"> Publications </h1> */}
             <div className="row" style={divStyle}>
                 <div className="col text-center" >
                     <img
                         // className="border border-secondary rounded-circle"
-                        src={Dell}
+                        src={Mot}
                         alt="dell technologies logo"
-                        width="150"
+                        width="300"
                         height="150"
                     />
                     <br/>
-                    <br/>
                     <p className="lead text-center" style={{fontSize:'22px'}}>
-                        Freelance (Computer Vision)
+                        <strong>Motion-aware Deep Video Coding Network</strong>
  			<br/>
-			<strong>Researcher</strong>
+			April 2020
                         <br/>
-                        June 2020 - January 2021
+                        <a href="https://www.cse.scu.edu/~yliu1/papers/SPIE2020.pdf">Read Here</a>
                     </p>
-                    {/* <h3>Dell Technologies</h3> */}
                 </div>
                 <div className="col text-center">
                     <img
                         // className="border border-secondary rounded-circle"
-                        src={Boeing}
-                        alt="boeing logo"
-                        width="150"
-                        height="150"
+                        src={Sent}
+                        alt="dell technologies logo"
+                        width="300"
+                        height="100"
                     />
                     <br/>
-                    <br/>
                     <p className="lead text-center" style={{fontSize:'22px'}}>
-                        Santa Clara University
+                        <strong>Airline Sentiment Visualization, Consumer Loyalty Prediction using Twitter Data</strong>
 			<br/>
-			<strong>Graduate Research Assistant </strong> 
+			June 2018  
                         <br/>
-                        September 2019 – March 2020
+                        <a href="https://thesai.org/Downloads/Volume9No6/Paper_52-Airline_Sentiment_Visualization.pdf">Read Here</a>
                     </p>
-                    {/* <h3>Boeing</h3> */}
                 </div>
             </div>
         </div>
@@ -61,4 +58,4 @@ return (
   );
 };
 
-export default Experience;
+export default Publications;

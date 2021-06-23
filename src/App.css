@@ -1,13 +1,10 @@
 .bgstyle {
-  /* background: linear-gradient(136deg, #1ad7c0, #8E44AD, #ff9b11, #1F3A93, #ddd8c6, #000000, #000000);  */
+  /* background: linear-gradient(136deg, #8E44AD, #1F3A93, #000000, #000000);  */
   background: linear-gradient(
     136deg,
     #7c2dcc,
     /* #9b59b6, */
-    #ff7f7f,
-    #ff9b11,
-    #00c97c,
-    #4484ce
+    #ff7f7f
   );
 
   background-size: 1200% 1200%;
@@ -16,6 +13,10 @@
   -o-animation: AnimationName 70s ease infinite;
   animation: AnimationName 70s ease infinite;
   height: 100%;
+}
+
+.bg-custom {
+    background-color: purple;
 }
 
 @-webkit-keyframes AnimationName {

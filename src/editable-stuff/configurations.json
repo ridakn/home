@@ -1,7 +1,7 @@
 {
   "backgroundType": "gradient",
   "plainBackgroundMode": "daylight",
-  "gradientColors": "#E73C7E, #23A6D5, #23D5AB, #893FA6",
+  "gradientColors": "#E73C7E, #893FA6",
   "FirstName": "Rida",
   "MiddleName": "",
   "LastName": "Khan",
@@ -33,7 +33,7 @@
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "ridakn",
   "gitHubQuerry": "/repos?sort=updated&direction=desc",
-  "projectsLength": 2,
+  "projectsLength": 4,
   "showNavigationbar": true,
   "showBlog": false
 }

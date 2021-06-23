@@ -34,12 +34,12 @@ const MainBody = () => {
       >
         <div id="stars"></div>
         <div className="container container-fluid text-center ">
-          <h1 className="display-1">
+          <h1 className="display-1"><strong>
             {FirstName + " " + MiddleName + " " + LastName}
-          </h1>
+          </strong></h1>
           <Typist className="lead"> {devDesc}</Typist>
           {/* <br/><br/>
-          <p className="lead"> <b>Passionate about changing the world with technology.</b></p> */}
+          <p className="lead"> <b> I like writing, making videos and sometimes I code.</b></p> */}
           <div className="p-5">
             {icons.map((icon) => (
               <a

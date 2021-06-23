@@ -14,10 +14,10 @@ import Footer from "./components/home/Footer";
 import Navbar from "./components/Navbar";
 import { Blog } from "./components/blog/Blog";
 import BlogPost from "./components/blog/BlogPost";
-import Leadership from "./components/home/Leadership";
+import Seminar from "./components/home/Leadership";
 import Experience from "./components/home/Experience";
-import Interests from "./components/home/Interests";
 import Skills from "./components/home/Skills";
+import Publications from "./components/home/Publications";
 
 const Home = () => {
   return (
@@ -26,9 +26,9 @@ const Home = () => {
       <AboutMe />
       <Experience />
       <Project />
-      <Leadership />
+      <Publications />
+      <Seminar />
       <Skills />
-      <Interests />
     </Fragment>
   );
 };

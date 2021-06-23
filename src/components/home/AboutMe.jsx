@@ -1,16 +1,12 @@
 import React, { useState, useEffect, Profiler } from "react";
 import axios from "axios";
-import Pdf from "../../editable-stuff/Ana Ashrafi - Resume 2020.pdf";
+import Pdf from "../../editable-stuff/resume.pdf";
 import Profile from "../../editable-stuff/Profile.jpg"
 import {Helmet} from "react-helmet";
 
 import {
   aboutHeading,
   aboutDescription,
-  showInstaProfilePic,
-  instaLink,
-  instaUsername,
-  instaQuerry,
 } from "../../editable-stuff/configurations.json";
 const divStyle = {
   display: 'flex',
@@ -18,38 +14,9 @@ const divStyle = {
   alignItems: 'center'
 };
 const AboutMe = () => {
-  const [instaProfilePic, setInstaProfilePic] = useState("");
-  const [showInsta, setShowInsta] = useState(showInstaProfilePic);
-  const [resumeURL] = useState(Pdf);
-
-  useEffect(() => {
-    if (showInsta) {
-      handleRequest();
-    }
-  }, [showInsta]);
-
-  const handleRequest = (e) => {
-    axios
-      .get(instaLink + instaUsername + instaQuerry)
-      .then((response) => {
-        // handle success
-        // console.log(response.data.graphql);
-        return setInstaProfilePic(
-          response.data.graphql.user.profile_pic_url_hd
-        );
-      })
-      .catch((error) => {
-        // handle error
-        setShowInsta(false);
-        return console.error(error.message);
-      })
-      .finally(() => {
-        // always executed
-      });
-  };
-
+ const [resumeURL] = useState(Pdf);
   return (
-    <div id="aboutme" className="jumbotron jumbotron-fluid m-0" style={{backgroundColor:'#f7f7f7'}}>
+    <div id="aboutme" className="jumbotron jumbotron-fluid m-0" style={{backgroundColor:'#fdfaff'}}>
       <div className="container container-fluid">
         <div className="row" style={divStyle}>
             <div className="col-5 d-none d-lg-inline align-self-center">
@@ -62,7 +29,7 @@ const AboutMe = () => {
               />
             </div>
             <div className="col d-lg-inline align-self-center">
-            <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
+            <h1 className="display-4 mb-5 text-center"><strong>{aboutHeading}</strong></h1>
             <p className="lead text-center">{aboutDescription}</p><br/>
             {resumeURL && (
               <p className="lead text-center">
